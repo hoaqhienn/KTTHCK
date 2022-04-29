@@ -18,8 +18,8 @@
         $(document).ready(function() {
             var i = 1;
             $("#button").click(function() { 
-                $("#reg-modal").modal('show');
-            })
+                $("#reg-modal").modal();
+            });
 
             $("#txtHT").blur(function(){
                 let mauKT = /([A-Z]{1}[a-z]+)((\s{1}[A-Z]{1}[a-z]+){1,})$/;
